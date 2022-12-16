@@ -1,0 +1,254 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background-image: url('https://wallpaper.dog/large/10863854.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+ul.header{
+    background-color: plum;
+    list-style-type:none;
+    margin:2px;
+    position:fixed;
+    left:0px;
+    right:0px;
+    top:0px;
+    width:100%;
+    padding:10px;
+    border-bottom: 4px solid purple;
+}
+
+ul.footer{
+    list-style-type:none;
+    padding:20px;
+    color: black;
+}
+
+li.header{
+    font-size:15px;
+    float:left;
+}
+
+li.footer{
+    font-size:15px;
+    display:inline;
+    color: black;
+}
+
+a.ntslctd{
+    font-weight: bold;
+    padding:10px 20px;
+    color:brown;
+    text-decoration:none;
+    text-transform:uppercase;
+    font-size: 12px;
+}
+
+a.slctd{
+    font-weight: bold;
+    text-decoration: none;
+    background-color: magenta;
+    color:brown;
+    padding:10px 20px;
+    text-transform:uppercase;
+    font-size: 12px;
+}
+
+a:hover.slctd{
+    background-color: magenta;
+    color:brown;
+}
+
+a:hover.ntslctd{
+    background-color: magenta;
+    color:brown;
+}
+
+a.pntslctd{
+    font-weight: bold;
+    padding:10px;
+    color:brown;
+    text-decoration:none;
+}
+
+a.pslctd{
+    font-weight: bold;
+    text-decoration: none;
+    background-color: magenta;
+    color:brown;
+    padding:10px;
+}
+
+a:hover.pslctd{
+    background-color: black;
+    color:brown;
+}
+
+a:hover.pntslctd{
+    background-color: magenta;
+    color:brown;
+}
+
+img:hover.m{
+    border-color: magenta;
+}
+
+div.header{
+    height:60px;
+}
+
+h2.feedback{
+    position:fixed;
+    top:60px;
+    left:30px;
+}
+
+img.m{
+    border:5px solid white;
+    border-radius:5px;
+    margin:30px;
+    width:auto;
+    height:300px;
+}
+
+img.main{
+    width:400px;
+    height:auto;
+    margin-bottom: 80px;
+}
+
+p.soon{
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+}
+
+a.contact{
+    text-decoration: none;
+    color:black;
+}
+a.youtube{
+    text-decoration: none;
+    color:black;
+}
+
+a:hover.contact{
+    color:#6ac045;
+}
+
+a:hover.youtube{
+    color:red;
+}
+
+div.aboutpic{
+    margin-top:250px;
+}
+
+img.insta{
+    position:absolute;
+    width:15px;
+    height:auto; 
+    margin-right: 20px;
+    border-radius: 60px;
+}
+
+img:hover.insta{
+    width:200px;
+    height:auto;
+    top:10px;
+    left:430px;
+}
+
+div.form{
+    position:fixed;
+    top:135px;
+    left:30px; 
+    background-color: antiquewhite;
+    padding:10px 25px;
+    border-radius: 20px;
+    border-color: brown;
+}
+
+input[type=text],[type=email],textarea{
+    padding: 10px;
+    border-radius: 20px;
+    border:2px solid #6ac045;
+    background-color: rgb(236, 248, 236);
+}
+
+input[type=text]:hover,[type=email]:hover,textarea:hover{
+    border-color: rgb(27, 148, 27);
+}
+
+input[type=text]{
+    width:185px;
+}
+
+input[type=email],textarea{
+    width:400px;
+}
+
+lable{
+    color: blue;
+    margin:6px;
+    padding: 12px;
+}
+
+input[type=submit]{
+    border-radius: 10px;
+    background-color: yellowgreen;
+    font-size: 15px;
+    padding: 10px 125px;
+    border:0px;
+}
+
+input[type=submit]:hover{
+    background-color: black;
+}
+
+p.form{
+    margin-bottom: 25px;
+}
+
+table{
+    position: fixed;
+    top:50px;
+    padding: 30px;
+}
+
+td{
+    padding: 8px 40px 5px 0px;
+    font-size: 18px;
+}
+
+h2{
+    position: fixed;
+    top:40px;
+}
+
+ul.cato{
+    list-style-type: octal;
+    position: fixed;
+    top:120px;
+}
+
+li.cato{
+    padding:10px;
+    font-size: 20px;
+    color: red;
+}
+
+img.icon{
+    width:20px;
+    height:auto;
+    margin-right: 15px;;
+}
+
+div.catolist{
+    padding:20px;
+    position: fixed;
+}
+
+div.aboutus{
+    position: fixed;
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<!--this is the contact_us page-->
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <title>Contact Us</title>
+    <style>
+        body {
+            background-image: url('https://wallpaperaccess.com/full/4742260.jpg');
+            background-size: cover;
+        }
+    </style>
+</head>
+
+<body>
+    <script>
+        function datavalidate() {
+            let x = document.forms['form']['fname'].value;
+            let y = document.forms['form']['lname'].value;
+            let z = document.forms['form']['email'].value;
+            let w = document.forms['form']['feed'].value;
+            if (x == "") {
+                alert('First name must be filled');
+            }
+            if (y == "") {
+                alert('Last name must be filled');
+            }
+            if (z == "") {
+                alert('Email must be filled');
+            }
+            if (w == "") {
+                alert('Feedback must be filled');
+            }
+        }
+
+    </script>
+    <!--this is the navigation bar-->
+    <header>
+        <ul class="header">
+            <li class="header"><a href="index.html" class="ntslctd">HOME</a></li>
+            <li class="header"><a href="cato.html" class="ntslctd">categories</a></li>
+            <li class="header"><a href="about_us.html" class="ntslctd">ABOUT US</a></li>
+            <li class="header"><a href="contact_us.html" class="slctd">CONTACT US</a></li>
+        </ul>
+    </header>
+    <h2 class="choice"><u><b><font color="black">Grab the book now!!</font></b></u></h2>
+    <div class="form">
+        <form name="form" onsubmit="datavalidate()">
+            <p class="form">
+                <lable for="fname">Your Name : </lable><br>
+                <input type="text" id="fname" placeholder="Your First name">
+                <input type="text" id="lname" placeholder="Your Last name">
+            </p>
+            <p class="form">
+                <lable for="email">Your Email :</lable><br>
+                <input type="email" id="email" placeholder="Type your mail here">
+            </p>
+            <p class="form">
+                <lable for="contact_no">Your Contact No :</lable><br>
+                <input type="text" id="contact_no" placeholder="Type your contact number here">
+            </p>
+            <p class="form">
+                <lable for="book">The book name :</lable><br>
+                <input type="text" id="book" placeholder="Type the book name here">
+            </p>
+            <p class="form">
+                <centre><input type="submit" value="submit"></centre>
+            </p>
+        </form>
+    </div>
+</body>
+
+</html>
